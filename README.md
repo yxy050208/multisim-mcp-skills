@@ -57,6 +57,17 @@ openclaw skills install @yxy050208/multisim-create-experiment
 openclaw skills install @yxy050208/multisim-debug-circuit
 ```
 
+已发布的六个 ClawHub slug：
+
+```text
+@yxy050208/multisim-circuit-workflow
+@yxy050208/multisim-create-experiment
+@yxy050208/multisim-debug-circuit
+@yxy050208/multisim-compare-experiments
+@yxy050208/multisim-verify-requirements
+@yxy050208/multisim-write-lab-report
+```
+
 ClawHub 页面和最终命令以各 Skill 发布页显示为准。
 
 ## 安全边界
