@@ -43,6 +43,11 @@ npx skills add yxy050208/multisim-mcp-skills \
 
 同一仓库也可安装到 Claude Code、Cursor、OpenClaw 和 skills CLI 支持的其他 Agent。
 
+`skills.sh` 不提供另一个需要手工上传的 npm 包；它以公开 GitHub 仓库中的
+`SKILL.md` 作为来源，并通过 `skills` CLI 的仓库发现/安装记录建立索引。仓库已通过
+GitHub Actions 校验，直接使用上面的命令即可验证六个 Skill；搜索结果可能因索引缓存
+延迟而稍后出现。
+
 ## ClawHub / OpenClaw
 
 发布审核完成后，可按单个 Skill 安装：
